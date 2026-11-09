@@ -10,11 +10,11 @@ AI declaration: No AI is used to modify files in this repository. AI was used to
 - [Alta3 YouTube](https://www.youtube.com/watch?v=MTHGoGUFpvE)
 - [TLDR](https://tldr.sh/) for checking cli reference docs on the fly.
 
-
 ## Commands
 
 - `minikube start` - Start the K8s API Server
-- `kubectl apply -f <file>` - Create or modify pod(s) from a manifest file specified with -f. 
+- `kubectl apply -f <file>` - Create or modify pod(s) from a manifest file specified with -f.
+- `kubectl apply -f <folder>` - Create or modify pod(s) from all manifests within the folder.
 - `kubectl get pods` - Shows the currently running pods, with flags to specify which namespace etc.
 - `kubectl describe <resource> <name>` - Describes a resource in detail, e.g a Pod.
 - `kubectl delete <resource> <name>` - Delete a resource by name
